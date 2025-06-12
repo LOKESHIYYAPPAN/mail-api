@@ -2,7 +2,6 @@ const mailService = require("../services/mailService");
 
 const sendMail = async (req, res) => {
     try {
-        console.log(req.body)
         const { name, email, message } = req.body;
         if (!name) {
             return res.status(400).json({ message: "Name is required" });
