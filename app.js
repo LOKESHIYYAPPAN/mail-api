@@ -19,3 +19,7 @@ app.get('/health', (req, res) => {
 app.listen(process.env.PORT || 3000, () => {
     console.log(`Server started on port ${process.env.port || 3000}`);
 })
+
+// EMAIL = lok493770@gmail.com
+// PASSWORD = suoaozwwrpdoeryo
+// PORT = 3000

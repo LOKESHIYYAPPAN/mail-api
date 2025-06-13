@@ -20,7 +20,7 @@ const sendMail = async ({ name, email, message }) => {
     // 2️⃣ Email to yourself (notification)
     const receiverMail = {
         from: process.env.EMAIL,
-        to: process.env.email,
+        to: process.env.EMAIL,
         subject: `New message from ${name}`,
         text: `You received a new message:\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     };
