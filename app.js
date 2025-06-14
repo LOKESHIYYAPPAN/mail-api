@@ -6,7 +6,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 app.use(cors({
-    origin: ['https://my-portfolio-liard-mu-27.vercel.app/'],
+    origin: ['https://my-portfolio-liard-mu-27.vercel.app'],
     credentials: true
 }))
 
